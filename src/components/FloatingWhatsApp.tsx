@@ -11,7 +11,7 @@ const FloatingWhatsApp = () => {
       asChild
       size="icon"
       variant="success"
-      className="fixed bottom-8 right-8 z-50 h-12 w-12 rounded-full shadow-accent p-0 transition-all duration-300 hover:scale-110 animate-fade-in"
+      className="fixed bottom-8 right-8 z-50 h-10 w-10 rounded-full shadow-accent p-1.5 transition-all duration-300 hover:scale-110 animate-fade-in"
       aria-label="Entre em contato pelo WhatsApp"
     >
       <a 
@@ -23,7 +23,7 @@ const FloatingWhatsApp = () => {
         <img 
           src={whatsappIcon} 
           alt="WhatsApp" 
-          className="h-7 w-7"
+          className="h-full w-full"
         />
       </a>
     </Button>
