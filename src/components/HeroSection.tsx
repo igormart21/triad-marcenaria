@@ -42,7 +42,7 @@ const HeroSection = () => {
             <img 
               src={logo} 
               alt="Triad Marcenaria" 
-              className="h-32 md:h-40 lg:h-48 w-auto drop-shadow-2xl"
+              className="h-40 md:h-48 lg:h-56 w-auto drop-shadow-2xl"
             />
           </div>
           

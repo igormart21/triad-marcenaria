@@ -43,13 +43,13 @@ const Navbar = () => {
         : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-6">
-        <div className="flex items-center justify-between h-28">
+        <div className="flex items-center justify-between h-32">
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
               src={logo} 
               alt="Triad Marcenaria" 
-              className="h-20 md:h-24 lg:h-28 w-auto cursor-pointer transition-opacity hover:opacity-80"
+              className="h-24 md:h-28 lg:h-32 w-auto cursor-pointer transition-opacity hover:opacity-80"
               onClick={() => scrollToSection("hero")}
             />
           </div>
