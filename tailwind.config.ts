@@ -14,7 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -37,6 +38,10 @@ export default {
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
+        },
+        "warm-brown": {
+          DEFAULT: "hsl(var(--warm-brown))",
+          foreground: "hsl(var(--warm-brown-foreground))",
         },
         accent: {
           DEFAULT: "hsl(var(--accent))",
