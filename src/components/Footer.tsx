@@ -5,16 +5,11 @@ const Footer = () => {
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
   return <footer className="bg-primary/80 text-primary-foreground">
       <div className="container mx-auto px-6 py-12">
-        <div className="flex flex-col items-center mb-12">
-          {/* Logo */}
-          <div className="mb-12">
-            <img src={logo} alt="7 Marcenaria" className="h-40 w-auto" />
-          </div>
-
-          {/* Contatos, Endereço e Redes Sociais - Layout Vertical */}
-          <div className="w-full max-w-2xl space-y-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+          {/* Coluna Esquerda - Informações */}
+          <div className="space-y-8">
             {/* Contatos */}
-            <div className="text-center space-y-4">
+            <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-accent mb-4">Contatos</h3>
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-primary-foreground/90 hover:text-accent transition-colors">
                 <Phone className="h-5 w-5" />
@@ -23,7 +18,7 @@ const Footer = () => {
             </div>
 
             {/* Endereço */}
-            <div className="text-center space-y-4">
+            <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-accent mb-4">Endereço</h3>
               <div className="inline-flex items-start gap-3 text-primary-foreground/90">
                 <MapPin className="h-5 w-5 mt-1 flex-shrink-0" />
@@ -35,9 +30,9 @@ const Footer = () => {
             </div>
 
             {/* Redes Sociais */}
-            <div className="text-center space-y-4">
+            <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-accent mb-4">Redes Sociais</h3>
-              <div className="flex gap-4 justify-center">
+              <div className="flex gap-4">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-primary-foreground/10 hover:bg-accent flex items-center justify-center transition-colors group" aria-label="Facebook">
                   <Facebook className="h-6 w-6 text-primary-foreground group-hover:text-accent-foreground transition-colors" />
                 </a>
@@ -47,14 +42,20 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
 
-        {/* Mapa */}
-        <div className="mb-12 flex justify-center">
-          <div className="rounded-lg overflow-hidden w-64 h-64 shadow-lg">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.5!2d-47.5!3d-23.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMwJzAwLjAiUyA0N8KwMzAnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890" width="100%" height="100%" style={{
-            border: 0
-          }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Localização 7 Marcenaria" />
+          {/* Coluna Direita - Logo e Mapa */}
+          <div className="flex flex-col items-center space-y-6">
+            {/* Logo */}
+            <div>
+              <img src={logo} alt="7 Marcenaria" className="h-32 w-auto" />
+            </div>
+
+            {/* Mapa */}
+            <div className="rounded-lg overflow-hidden w-64 h-64 shadow-lg">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.5!2d-47.5!3d-23.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMwJzAwLjAiUyA0N8KwMzAnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890" width="100%" height="100%" style={{
+              border: 0
+            }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Localização 7 Marcenaria" />
+            </div>
           </div>
         </div>
 
