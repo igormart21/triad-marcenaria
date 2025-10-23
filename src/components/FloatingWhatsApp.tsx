@@ -11,7 +11,7 @@ const FloatingWhatsApp = () => {
       asChild
       size="icon"
       variant="success"
-      className="fixed bottom-4 right-4 z-50 h-12 w-12 rounded-full shadow-accent p-2 transition-all duration-300 hover:scale-110 animate-fade-in"
+      className="fixed bottom-6 right-6 z-50 h-14 w-14 rounded-full shadow-lg p-2.5 transition-all duration-300 hover:scale-110 animate-fade-in"
       aria-label="Entre em contato pelo WhatsApp"
     >
       <a 
