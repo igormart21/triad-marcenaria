@@ -50,10 +50,12 @@ const Footer = () => {
         </div>
 
         {/* Mapa */}
-        <div className="mb-12 rounded-lg overflow-hidden h-64 shadow-lg">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.5!2d-47.5!3d-23.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMwJzAwLjAiUyA0N8KwMzAnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890" width="100%" height="100%" style={{
-          border: 0
-        }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Localização 7 Marcenaria" />
+        <div className="mb-12 flex justify-center">
+          <div className="rounded-lg overflow-hidden w-64 h-64 shadow-lg">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.5!2d-47.5!3d-23.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMwJzAwLjAiUyA0N8KwMzAnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890" width="100%" height="100%" style={{
+            border: 0
+          }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Localização 7 Marcenaria" />
+          </div>
         </div>
 
         {/* Copyright e Links */}
