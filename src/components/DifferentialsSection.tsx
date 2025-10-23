@@ -73,7 +73,7 @@ const DifferentialsSection = () => {
             <span className="font-semibold text-primary">diferença no seu projeto</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Mais de 10 anos de experiência, qualidade comprovada e compromisso com a 
+            Mais de 10 anos de empresa, qualidade comprovada e compromisso com a 
             excelência em cada detalhe do seu projeto de móveis sob medida.
           </p>
         </div>

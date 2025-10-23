@@ -16,7 +16,7 @@ const AboutSection = () => {
             <span className="font-medium text-accent">móveis únicos</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed font-light">
-            Com mais de 10 anos de experiência no mercado, a Triad Marcenaria se consolidou 
+            Com mais de 10 anos de empresa no mercado, a Triad Marcenaria se consolidou 
             como referência em móveis sob medida, oferecendo soluções premium com o melhor 
             custo-benefício da região.
           </p>

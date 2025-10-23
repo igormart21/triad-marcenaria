@@ -16,7 +16,7 @@ const FounderSection = () => {
   const achievements = [
     {
       icon: Award,
-      title: "Mais de 10 anos de experiência",
+      title: "29 anos de experiência",
       description: "No mercado de móveis sob medida e marcenaria artesanal"
     },
     {
@@ -58,7 +58,7 @@ const FounderSection = () => {
             <span className="font-semibold text-primary">um profissional dedicado</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Um profissional com anos de experiência no mercado de móveis sob medida, 
+            Um profissional com 29 anos de experiência no mercado de móveis sob medida, 
             sempre comprometido com a excelência e satisfação dos clientes.
           </p>
         </div>
@@ -109,7 +109,7 @@ const FounderSection = () => {
                   Sobre Thiago Ferreira
                 </h4>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Com mais de uma década de experiência no mercado de móveis sob medida, 
+                  Com 29 anos de experiência no mercado de móveis sob medida, 
                   Thiago Ferreira é o responsável por transformar a Triad Marcenaria em 
                   uma referência de qualidade e confiança na região.
                 </p>

@@ -79,7 +79,7 @@ const StatsSection = () => {
             <span className="font-semibold text-primary">falam por si só</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Mais de uma década de experiência transformando espaços e superando 
+            Mais de 10 anos de empresa transformando espaços e superando 
             expectativas com qualidade, inovação e compromisso.
           </p>
         </div>
