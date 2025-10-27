@@ -87,9 +87,15 @@ const FounderSection = () => {
               <p className="text-xl text-primary font-medium mb-4">
                 Administrador e Fundador
               </p>
-              <div className="flex items-center justify-center lg:justify-start text-muted-foreground">
-                <Calendar className="h-5 w-5 mr-2" />
-                <span>Fundador desde 2011</span>
+              <div className="space-y-2">
+                <div className="flex items-center justify-center lg:justify-start text-muted-foreground">
+                  <Calendar className="h-5 w-5 mr-2" />
+                  <span>Fundado desde 2015 em Colombo PR</span>
+                </div>
+                <div className="flex items-center justify-center lg:justify-start text-muted-foreground text-sm">
+                  <Calendar className="h-4 w-4 mr-2" />
+                  <span>Fundado desde 2011 em São Paulo</span>
+                </div>
               </div>
             </div>
 
@@ -113,8 +119,12 @@ const FounderSection = () => {
             <Card className="border-0 shadow-md">
               <CardContent className="p-6">
                 <h4 className="text-xl font-semibold mb-4 text-foreground">
-                  Sobre Thiago Ferreira
+                  Sobre a Triad Marcenaria
                 </h4>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  A Triad Marcenaria nasceu em São Paulo, iniciando sua jornada no mercado de 
+                  móveis sob medida com a missão de oferecer qualidade e excelência.
+                </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   Com 29 anos de experiência no mercado de móveis sob medida, 
                   Thiago Ferreira é o responsável por transformar a Triad Marcenaria em 
