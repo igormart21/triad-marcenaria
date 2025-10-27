@@ -133,20 +133,17 @@ const ProcessSection = () => {
           <h3 className="text-3xl font-semibold text-center mb-12 text-foreground">
             Cronograma Médio do Projeto
           </h3>
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-4 gap-0">
             {timeline.map((item, index) => (
-              <div key={index} className="text-center group">
+              <div key={index} className="text-center group relative">
                 <div className="mx-auto mb-4 p-4 rounded-full bg-primary/10 group-hover:bg-primary/20 transition-colors w-fit">
                   <item.icon className="h-8 w-8 text-primary" />
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-foreground">
                   {item.phase}
                 </h4>
-                <p className="text-sm text-primary font-medium">
-                  {item.duration}
-                </p>
                 {index < timeline.length - 1 && (
-                  <ArrowRight className="h-6 w-6 text-muted-foreground mx-auto mt-4 hidden md:block" />
+                  <ArrowRight className="h-6 w-6 text-muted-foreground absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 hidden md:block" />
                 )}
               </div>
             ))}
