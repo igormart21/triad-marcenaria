@@ -122,7 +122,7 @@ const FounderSection = () => {
                   Sobre a Triad Marcenaria
                 </h4>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  A Triad Marcenaria nasceu em São Paulo, iniciando sua jornada no mercado de 
+                  A Triad Marcenaria estabeleceu-se em Colombo PR, iniciando sua jornada no mercado de 
                   móveis sob medida com a missão de oferecer qualidade e excelência.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
