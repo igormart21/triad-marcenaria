@@ -46,7 +46,7 @@ const AboutSection = () => {
               <CardContent className="p-8">
                 <div className="flex items-center mb-6">
                   <Calendar className="h-6 w-6 text-accent mr-3" />
-                  <span className="text-2xl font-bold text-primary">2016</span>
+                  <span className="text-2xl font-bold text-primary">2017</span>
                 </div>
                 <h4 className="text-xl font-medium mb-3 text-foreground">Expansão Regional</h4>
                 <p className="text-muted-foreground leading-relaxed">
