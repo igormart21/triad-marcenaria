@@ -22,8 +22,8 @@ const FounderSection = () => {
     },
     {
       icon: Target,
-      title: "Especialista em Design",
-      description: "Formação em design de interiores e arquitetura"
+      title: "Vasto conhecimento em Design",
+      description: "Formação em administração de empresas"
     },
     {
       icon: CheckCircle,
