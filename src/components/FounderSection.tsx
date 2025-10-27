@@ -87,15 +87,9 @@ const FounderSection = () => {
               <p className="text-xl text-primary font-medium mb-4">
                 Administrador e Fundador
               </p>
-              <div className="space-y-2">
-                <div className="flex items-center justify-center lg:justify-start text-muted-foreground">
-                  <Calendar className="h-5 w-5 mr-2" />
-                  <span>Fundado desde 2015 em Colombo PR</span>
-                </div>
-                <div className="flex items-center justify-center lg:justify-start text-muted-foreground text-sm">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  <span>Fundado desde 2011 em São Paulo</span>
-                </div>
+              <div className="flex items-center justify-center lg:justify-start text-muted-foreground">
+                <Calendar className="h-5 w-5 mr-2" />
+                <span>Fundado desde 2015 em Colombo PR</span>
               </div>
             </div>
 
