@@ -54,7 +54,6 @@ const DifferentialsSection = () => {
   const guarantees = [
     "Garantia de 2 anos em todos os móveis",
     "Suporte técnico especializado",
-    "Manutenção preventiva incluída",
     "Substituição em caso de defeito",
     "Instalação profissional garantida",
     "Materiais certificados e de qualidade"
