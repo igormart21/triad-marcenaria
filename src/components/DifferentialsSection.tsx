@@ -27,8 +27,8 @@ const DifferentialsSection = () => {
     },
     {
       icon: Shield,
-      title: "Garantia Total",
-      description: "Garantia para que você tenha mais tranquilidade e confiança ao adquirir nossos produtos e serviços.",
+      title: "Garantia",
+      description: "Garantia estendida em todos os nossos produtos e serviços para sua tranquilidade e confiança.",
       color: "text-green-500"
     },
     {
