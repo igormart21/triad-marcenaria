@@ -158,7 +158,7 @@ const TestimonialsSection = () => {
           {/* Stats */}
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary mb-2">98%</div>
+              <div className="text-2xl font-bold text-primary mb-2">100%</div>
               <div className="text-sm text-muted-foreground">Clientes Satisfeitos</div>
             </div>
             <div className="text-center">
