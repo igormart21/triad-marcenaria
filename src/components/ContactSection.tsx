@@ -156,7 +156,7 @@ const ContactSection = () => {
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-3"
                 >
                   <Send className="h-5 w-5 mr-2" />
-                  Solicitar Orçamento Gratuito
+                  Orçamento Sem Compromisso
                 </Button>
 
                 <div className="flex items-center justify-center text-sm text-muted-foreground">
