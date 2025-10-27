@@ -151,6 +151,9 @@ const ProcessSection = () => {
               </div>
             ))}
           </div>
+          <p className="text-center text-sm text-muted-foreground mt-8 max-w-2xl mx-auto italic">
+            Os prazos de instalação e de fabricação serão definidos conforme tamanho e complexidade do projeto.
+          </p>
         </div>
 
         {/* Process Benefits */}
