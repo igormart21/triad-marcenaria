@@ -113,15 +113,16 @@ const FounderSection = () => {
             <Card className="border-0 shadow-md">
               <CardContent className="p-6">
                 <h4 className="text-xl font-semibold mb-4 text-foreground">
-                  Sobre a Triad Marcenaria
+                  Sobre Thiago José Gondarski
                 </h4>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  A Triad Marcenaria estabeleceu-se em Colombo PR, iniciando sua jornada no mercado de 
-                  móveis sob medida com a missão de oferecer qualidade e excelência.
+                  Com 29 anos de experiência no mercado de móveis sob medida, 
+                  Thiago José Gondarski estabeleceu a Triad Marcenaria em Colombo PR, 
+                  iniciando sua jornada no mercado de móveis sob medida com a missão de 
+                  oferecer qualidade e excelência.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Com 29 anos de experiência no mercado de móveis sob medida, 
-                  Thiago José Gondarski é o responsável por transformar a Triad Marcenaria em 
+                  Thiago é o responsável por transformar a Triad Marcenaria em 
                   uma referência de qualidade e confiança na região.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
