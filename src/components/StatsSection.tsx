@@ -22,14 +22,14 @@ const StatsSection = () => {
     },
     {
       icon: Users,
-      number: "500+",
+      number: "300+",
       label: "Clientes Satisfeitos",
       description: "Projetos entregues com excelência",
       color: "text-green-500"
     },
     {
       icon: Home,
-      number: "1000+",
+      number: "500+",
       label: "Projetos Realizados",
       description: "Cozinhas, banheiros e móveis",
       color: "text-purple-500"
