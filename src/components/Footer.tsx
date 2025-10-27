@@ -1,7 +1,7 @@
 import { MapPin, Phone, Mail, Facebook, Instagram } from "lucide-react";
 import logo from "@/assets/logo-navbar.png";
 const Footer = () => {
-  const whatsappNumber = "5515997429824";
+  const whatsappNumber = "5541996787569";
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
   return <footer className="bg-primary/80 text-primary-foreground">
       <div className="container mx-auto px-6 py-12">
@@ -28,7 +28,11 @@ const Footer = () => {
               <h3 className="text-2xl font-semibold text-accent mb-4">Contatos</h3>
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-primary-foreground/90 hover:text-accent transition-colors">
                 <Phone className="h-5 w-5" />
-                <span className="font-light">(31) 99678-7569</span>
+                <span className="font-light">(41) 99678-7569</span>
+              </a>
+              <a href="mailto:tgondarski@yahoo.com" className="inline-flex items-center gap-3 text-primary-foreground/90 hover:text-accent transition-colors">
+                <Mail className="h-5 w-5" />
+                <span className="font-light">tgondarski@yahoo.com</span>
               </a>
             </div>
 
@@ -38,8 +42,7 @@ const Footer = () => {
               <div className="inline-flex items-start gap-3 text-primary-foreground/90">
                 <MapPin className="h-5 w-5 mt-1 flex-shrink-0" />
                 <p className="font-light leading-relaxed">
-                  R. Rosa Maria de Oliveira, 401<br />
-                  Jardim Zulmira
+                  Colombo PR
                 </p>
               </div>
             </div>

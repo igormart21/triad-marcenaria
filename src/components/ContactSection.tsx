@@ -21,19 +21,19 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: "Telefone / WhatsApp",
-      info: "(11) 99999-9999",
+      info: "(41) 99678-7569",
       description: "Atendimento de segunda a sexta, 8h às 18h"
     },
     {
       icon: Mail,
       title: "E-mail",
-      info: "contato@triadmarcenaria.com.br",
+      info: "tgondarski@yahoo.com",
       description: "Respondemos em até 24 horas"
     },
     {
       icon: MapPin,
       title: "Endereço",
-      info: "São Paulo, SP",
+      info: "Colombo PR",
       description: "Atendemos toda a região metropolitana"
     },
     {
@@ -208,7 +208,7 @@ const ContactSection = () => {
                   className="bg-green-600 hover:bg-green-700 text-white font-semibold"
                 >
                   <a 
-                    href="https://wa.me/5511999999999?text=Olá! Gostaria de solicitar um orçamento para móveis sob medida."
+                    href="https://wa.me/5541996787569?text=Olá! Gostaria de solicitar um orçamento para móveis sob medida."
                     target="_blank"
                     rel="noopener noreferrer"
                   >

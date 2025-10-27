@@ -22,7 +22,7 @@ const StatsSection = () => {
     },
     {
       icon: Users,
-      number: "300+",
+      number: "500+",
       label: "Clientes Satisfeitos",
       description: "Projetos entregues com excelência",
       color: "text-green-500"
