@@ -71,8 +71,8 @@ const ServicesSection = () => {
     },
     {
       icon: Shield,
-      title: "Garantia Estendida",
-      description: "Garantia estendida em todos os nossos produtos e serviços para sua tranquilidade e confiança."
+      title: "Garantia",
+      description: "Garantia para que você tenha mais tranquilidade e confiança ao adquirir nossos produtos e serviços."
     }
   ];
 
