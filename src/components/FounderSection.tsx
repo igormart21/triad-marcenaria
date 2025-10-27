@@ -73,7 +73,7 @@ const FounderSection = () => {
                 <div className="relative w-full h-full rounded-full p-2 bg-gradient-to-br from-primary via-primary/80 to-amber-800 shadow-2xl">
                   <div className="w-full h-full rounded-full ring-4 ring-amber-900/20 shadow-inner">
                     <Avatar className="w-full h-full border-4 border-warm-brown/40 shadow-xl">
-                      <AvatarImage src={founderPhoto} alt="Thiago Ferreira - Fundador da Triad Marcenaria" className="object-cover" />
+                      <AvatarImage src={founderPhoto} alt="Thiago José Gondarski - Fundador da Triad Marcenaria" className="object-cover" />
                       <AvatarFallback className="text-4xl font-bold bg-primary text-primary-foreground">
                         TF
                       </AvatarFallback>
@@ -82,7 +82,7 @@ const FounderSection = () => {
                 </div>
               </div>
               <h3 className="text-3xl font-semibold text-foreground mb-2">
-                Thiago Ferreira
+                Thiago José Gondarski
               </h3>
               <p className="text-xl text-primary font-medium mb-4">
                 Administrador e Fundador
@@ -108,7 +108,7 @@ const FounderSection = () => {
                   funcionalidade dos móveis sob medida, sempre com excelência e transparência."
                 </blockquote>
                 <div className="text-sm text-muted-foreground">
-                  — Thiago Ferreira, Fundador da Triad Marcenaria
+                  — Thiago José Gondarski, Fundador da Triad Marcenaria
                 </div>
               </CardContent>
             </Card>
@@ -127,7 +127,7 @@ const FounderSection = () => {
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   Com 29 anos de experiência no mercado de móveis sob medida, 
-                  Thiago Ferreira é o responsável por transformar a Triad Marcenaria em 
+                  Thiago José Gondarski é o responsável por transformar a Triad Marcenaria em 
                   uma referência de qualidade e confiança na região.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
