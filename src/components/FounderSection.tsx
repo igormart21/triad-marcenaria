@@ -11,6 +11,7 @@ import {
   CheckCircle,
   Heart
 } from "lucide-react";
+import founderPhoto from "@/assets/enhanced_PHOTO-2025-10-27-14-52-53.png";
 
 const FounderSection = () => {
   const achievements = [
@@ -68,12 +69,18 @@ const FounderSection = () => {
           {/* Photo and Basic Info */}
           <div className="text-center lg:text-left">
             <div className="mb-8">
-              <Avatar className="w-48 h-48 mx-auto lg:mx-0 mb-6">
-                <AvatarImage src="/api/placeholder/192/192" alt="Fundador da Triad Marcenaria" />
-                <AvatarFallback className="text-4xl font-bold bg-primary text-primary-foreground">
-                  TF
-                </AvatarFallback>
-              </Avatar>
+              <div className="w-72 h-72 mx-auto lg:mx-0 mb-6">
+                <div className="relative w-full h-full rounded-full p-2 bg-gradient-to-br from-primary via-primary/80 to-amber-800 shadow-2xl">
+                  <div className="w-full h-full rounded-full ring-4 ring-amber-900/20 shadow-inner">
+                    <Avatar className="w-full h-full border-4 border-warm-brown/40 shadow-xl">
+                      <AvatarImage src={founderPhoto} alt="Thiago Ferreira - Fundador da Triad Marcenaria" className="object-cover" />
+                      <AvatarFallback className="text-4xl font-bold bg-primary text-primary-foreground">
+                        TF
+                      </AvatarFallback>
+                    </Avatar>
+                  </div>
+                </div>
+              </div>
               <h3 className="text-3xl font-semibold text-foreground mb-2">
                 Thiago Ferreira
               </h3>
