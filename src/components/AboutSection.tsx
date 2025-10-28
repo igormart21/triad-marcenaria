@@ -34,7 +34,7 @@ const AboutSection = () => {
                   <Calendar className="h-6 w-6 text-accent mr-3" />
                   <span className="text-2xl font-bold text-primary">2015</span>
                 </div>
-                <h4 className="text-xl font-medium mb-3 text-foreground">Colombo PR</h4>
+                <h4 className="text-xl font-medium mb-3 text-foreground">Fundada em Colombo PR</h4>
                 <p className="text-muted-foreground leading-relaxed">
                   A Triad Marcenaria estabeleceu-se em Colombo PR, iniciando sua jornada no mercado 
                   de móveis sob medida com a missão de oferecer qualidade e excelência.
