@@ -27,7 +27,7 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "E-mail",
-      info: "tgondarski@yahoo.com",
+      info: "tgondarski@yahoo.com.br",
       description: "Respondemos em até 24 horas"
     },
     {
