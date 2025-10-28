@@ -52,7 +52,6 @@ const DifferentialsSection = () => {
   ];
 
   const guarantees = [
-    "Garantia sob defeitos de fabricação",
     "Suporte técnico especializado",
     "Substituição em caso de defeito",
     "Instalação profissional garantida",
