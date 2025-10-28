@@ -117,7 +117,7 @@ const FounderSection = () => {
                 </h4>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   Com 29 anos de experiência no mercado de móveis sob medida, 
-                  Thiago José Gondarski estabeleceu a Triad Marcenaria em Colombo PR, 
+                  Thiago José Gondarski fundou a Triad Marcenaria em Colombo PR, 
                   iniciando sua jornada no mercado de móveis sob medida com a missão de 
                   oferecer qualidade e excelência.
                 </p>
