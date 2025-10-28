@@ -189,7 +189,7 @@ const FounderSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://wa.me/5511999999999?text=Olá! Gostaria de conversar sobre um projeto de móveis sob medida."
+              href="https://wa.me/5541996787569?text=Olá! Gostaria de conversar sobre um projeto de móveis sob medida."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-colors"

@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 import ctaVideo from "@/assets/cta-background.mp4";
 
 const CTASection = () => {
-  const whatsappNumber = "5511999999999"; // Substitua pelo número real
+  const whatsappNumber = "5541996787569";
   const whatsappMessage = encodeURIComponent("Olá! Gostaria de receber um orçamento exclusivo para meu projeto.");
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 

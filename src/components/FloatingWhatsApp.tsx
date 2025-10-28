@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import whatsappIcon from "@/assets/whatsapp-icon.webp";
 const FloatingWhatsApp = () => {
-  const whatsappNumber = "5511999999999"; // Substitua pelo número real
+  const whatsappNumber = "5541996787569";
   const whatsappMessage = encodeURIComponent("Olá! Vim pelo site e gostaria de mais informações.");
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
   return (
