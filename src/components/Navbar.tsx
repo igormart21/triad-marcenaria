@@ -6,6 +6,9 @@ import logo from "@/assets/logo-navbar.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const whatsappNumber = "5541996787569";
+  const whatsappMessage = encodeURIComponent("Olá! Gostaria de mais informações.");
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -84,7 +87,7 @@ const Navbar = () => {
                   : 'bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm border border-white/30'
               }`}
             >
-              <a href="tel:+5511996787569">
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                 <Phone className="h-4 w-4 mr-2" />
                 Fale Conosco
               </a>
@@ -125,7 +128,7 @@ const Navbar = () => {
                 asChild
                 className="w-full bg-green-600 text-white hover:bg-green-700 rounded-full"
               >
-                <a href="tel:+5511996787569">
+                <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
                   <Phone className="h-4 w-4 mr-2" />
                   Fale Conosco
                 </a>
