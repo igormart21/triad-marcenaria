@@ -131,7 +131,7 @@ const ProcessSection = () => {
         {/* Timeline */}
         <div className="bg-background rounded-2xl p-8 shadow-sm">
           <h3 className="text-3xl font-semibold text-center mb-12 text-foreground">
-            Cronograma Médio do Projeto
+            Etapas Do Projeto
           </h3>
           <div className="grid md:grid-cols-4 gap-0">
             {timeline.map((item, index) => (
