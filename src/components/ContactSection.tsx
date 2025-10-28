@@ -33,7 +33,7 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: "Endereço",
-      info: "Colombo PR",
+      info: "Rua Zilda Arns Neumann, 1033 Roça Grande - Colombo PR",
       description: "Atendemos toda a região metropolitana"
     },
     {
