@@ -34,7 +34,7 @@ const ContactSection = () => {
       icon: MapPin,
       title: "Endereço",
       info: "Rua Zilda Arns Neumann, 1033 Roça Grande - Colombo PR",
-      description: "Atendemos toda a região metropolitana"
+      description: "Atendendo todo o estado do Paraná, Santa Catarina e algumas regiões do estado de São Paulo"
     },
     {
       icon: Clock,
