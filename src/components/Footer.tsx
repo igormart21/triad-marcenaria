@@ -26,14 +26,16 @@ const Footer = () => {
             {/* Contatos */}
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-accent mb-4">Contatos</h3>
-              <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-primary-foreground/90 hover:text-accent transition-colors">
-                <Phone className="h-5 w-5" />
-                <span className="font-light">(41) 99678-7569</span>
-              </a>
-              <a href="mailto:tgondarski@yahoo.com" className="inline-flex items-center gap-3 text-primary-foreground/90 hover:text-accent transition-colors">
-                <Mail className="h-5 w-5" />
-                <span className="font-light">tgondarski@yahoo.com</span>
-              </a>
+              <div className="flex flex-col gap-3">
+                <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-primary-foreground/90 hover:text-accent transition-colors">
+                  <Phone className="h-5 w-5" />
+                  <span className="font-light">(41) 99678-7569</span>
+                </a>
+                <a href="mailto:tgondarski@yahoo.com" className="inline-flex items-center gap-3 text-primary-foreground/90 hover:text-accent transition-colors">
+                  <Mail className="h-5 w-5" />
+                  <span className="font-light">tgondarski@yahoo.com</span>
+                </a>
+              </div>
             </div>
 
             {/* Endereço */}
